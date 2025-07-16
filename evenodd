@@ -1,0 +1,9 @@
+fn main() {
+    let number: i32 = 7; // Change this value as needed
+
+    if number % 2 == 0 {
+        println!("{} is even.", number);
+    } else {
+        println!("{} is odd.", number);
+    }
+}
