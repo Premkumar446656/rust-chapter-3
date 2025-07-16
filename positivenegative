@@ -1,0 +1,11 @@
+fn main() {
+    let number: f64 = -3.5; // Change this value to test other numbers
+
+    if number > 0.0 {
+        println!("The number is positive.");
+    } else if number < 0.0 {
+        println!("The number is negative.");
+    } else {
+        println!("The number is zero.");
+    }
+}
