@@ -1,0 +1,16 @@
+#Write a program to Print the following patterns
+&
+&&
+&&&
+&&&&
+&&&&&
+fn main() {
+    let rows = 5;
+
+    for i in 1..=rows {
+        for _ in 0..i {
+            print!("&");
+        }
+        println!(); // move to the next line
+    }
+}
