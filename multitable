@@ -1,0 +1,16 @@
+fn main() {
+    let max = 10;
+
+    'outer: for i in 1..=max {
+        'inner: for j in 1..=max {
+            print!("{:4}", i * j);
+
+            // Example use of a loop label: break if product is greater than 50
+            if i * j > 50 {
+                println!("  ← broke inner loop at {} x {}", i, j);
+                break 'inner; // break only the inner loop
+            }
+        }
+        println!(); // new line after each row
+    }
+}
