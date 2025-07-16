@@ -1,0 +1,13 @@
+fn main() {
+    let mut count = 0;
+    let mut number = 0;
+    let target = 50;
+
+    while number < target {
+        number += 5; // increment logic
+        count += 1;
+        println!("Iteration {}: number = {}", count, number);
+    }
+
+    println!("Loop ended after {} iterations when number reached {}.", count, number);
+}
